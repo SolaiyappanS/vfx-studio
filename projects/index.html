@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Our Projects - VFX Studio</title>
+    <link rel="icon" href="../img/logo-sm.png" sizes="32x32" type="image/png" />
+    <!-- custom.css -->
+    <link rel="stylesheet" href="custom.css" />
+    <!-- bootstrap.min.css -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="../font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="../css/aos.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!-- banner -->
+    <video autoplay muted loop id="myVideo">
+      <source src="../img/home-bg-vdo.mp4" type="video/mp4" />
+    </video>
+    <div class="jumbotron jumbotron-fluid" id="banner">
+      <div class="container text-center text-md-left">
+        <header>
+          <div class="row justify-content-between">
+            <div class="col-3">
+              <img id="logoImg" src="../img/logo.png" alt="logo" />
+            </div>
+            <div class="col-6 align-self-center text-right">
+              <a href="#contact" class="btn text-white">Home</a>
+              <a href="#contact" class="btn text-active">Projects</a>
+              <a href="#contact" class="btn text-white">Clients</a>
+              <a href="#contact" class="btn text-white">About Us</a>
+              <a href="#contact" class="btn text-white">Contact Us</a>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="../img/movie1.jpg" alt="Los Angeles" />
+          </div>
+
+          <div class="item">
+            <img src="../img/movie2.jpg" alt="Chicago" />
+          </div>
+
+          <div class="item">
+            <img src="../img/movie3.jpg" alt="New york" />
+          </div>
+
+          <div class="item">
+            <img src="../img/movie4.jpg" alt="Chicago" />
+          </div>
+
+          <div class="item">
+            <img src="../img/movie5.jpg" alt="New york" />
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- copyright -->
+    <div class="jumbotron jumbotron-fluid" id="copyright">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div
+            class="col-md-6 text-white align-self-center text-center text-md-left my-2"
+          >
+            Copyright © 2023 Top Studio.
+          </div>
+          <div
+            class="col-md-6 align-self-center text-center text-md-right my-2"
+            id="social-media"
+          >
+            <a href="#" class="text-active d-inline-block text-center ml-2">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="text-active d-inline-block text-center ml-2">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="text-active d-inline-block text-center ml-2">
+              <i class="fa fa-medium" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="text-active d-inline-block text-center ml-2">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- AOS -->
+    <script src="../js/aos.js"></script>
+    <script>
+      AOS.init({});
+    </script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+/********** common setting **********/
+body {
+  color: white;
+}
+
+#myVideo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#logoImg {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 2.8rem !important;
+  font-weight: 700;
+}
+
+#myCarousel img {
+  height: 600px;
+  object-fit: cover;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+.jumbotron {
+  margin-bottom: 0 !important;
+}
+
+.atlas-cta {
+  border-radius: 22px !important;
+  padding: 12px 30px !important;
+  font-weight: 700;
+  transition: 0.3s ease-in-out !important;
+}
+
+.atlas-cta:hover {
+  text-decoration: none;
+  transform: translateY(-5px);
+}
+
+.atlas-cta-wide {
+  width: 100%;
+}
+
+/********** feature (skew background) **********/
+.feature img {
+  width: 100%;
+  max-width: 480px;
+}
+
+/********** copyright **********/
+#copyright {
+  padding: 2rem 3rem;
+}
+
+#copyright #social-media a {
+  width: 40px;
+  height: 40px;
+  border-radius: 99%;
+  transition: 0.4s ease;
+}
+
+#copyright #social-media a i {
+  font-size: 1.2rem;
+  line-height: 40px;
+}
+
+#copyright #social-media a:hover i {
+  color: #ffffff;
+}
+
+.text-active {
+  color: #ffea20;
+  background-color: #0000;
+}
+
+.text-active:hover {
+  color: #b4a412;
+  background-color: #0000;
+}
+
+/********** RWD **********/
+@media (max-width: 575px) {
+  #banner h1 {
+    font-size: 3.6rem;
+  }
+}
