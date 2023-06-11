@@ -6,97 +6,141 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Our Projects - VFX Studio</title>
-    <link rel="icon" href="../img/logo-sm.png" sizes="32x32" type="image/png" />
-    <!-- custom.css -->
-    <link rel="stylesheet" href="custom.css" />
-    <!-- bootstrap.min.css -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <title>Projects - VFX Studio</title>
+    <link rel="icon" href="../img/logo.svg" sizes="32x32" type="image/png" />
     <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/0a03bb24ff.js"
+      crossorigin="anonymous"
+    ></script>
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="../font-awesome-4.7.0/css/font-awesome.min.css"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
     />
+    <!-- custom.css -->
+    <link rel="stylesheet" href="../css/custom.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- AOS -->
     <link rel="stylesheet" href="../css/aos.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
 
   <body>
+    <div class="container" id="mainHeader">
+      <header class="d-flex flex-wrap justify-content-center">
+        <a
+          href="../"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <img id="logoImg" src="../img/logo.svg" alt="logo" />
+        </a>
+
+        <div class="col-6 align-self-center text-right">
+          <a href="../" class="btn text-white">Home</a>
+          <a href="#" class="btn text-active">Projects</a>
+          <a href="../about/" class="btn text-white">About Us</a>
+          <a href="../contact/" class="btn text-white">Contact Us</a>
+        </div>
+      </header>
+    </div>
     <!-- banner -->
     <video autoplay muted loop id="myVideo">
-      <source src="../img/home-bg-vdo.mp4" type="video/mp4" />
+      <source src="../vid/home-bg-vdo.mp4" type="video/mp4" />
     </video>
-    <div class="jumbotron jumbotron-fluid" id="banner">
-      <div class="container text-center text-md-left">
-        <header>
-          <div class="row justify-content-between">
-            <div class="col-3">
-              <img id="logoImg" src="../img/logo.png" alt="logo" />
-            </div>
-            <div class="col-6 align-self-center text-right">
-              <a href="#contact" class="btn text-white">Home</a>
-              <a href="#contact" class="btn text-active">Projects</a>
-              <a href="#contact" class="btn text-white">Clients</a>
-              <a href="#contact" class="btn text-white">About Us</a>
-              <a href="#contact" class="btn text-white">Contact Us</a>
-            </div>
-          </div>
-        </header>
-      </div>
-    </div>
-    <div class="container">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
-          <li data-target="#myCarousel" data-slide-to="4"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
+    <div class="container mt-5 pt-5">
+      <h2 class="text-white font-weight-bold my-5">Our Projects</h2>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-inner">
-          <div class="item active">
-            <img src="../img/movie1.jpg" alt="Los Angeles" />
+          <div class="carousel-item img-h-100 active" data-bs-interval="3000">
+            <img src="../img/movie1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block bg-black-a">
+              <h5>The Good Dinosaur</h5>
+              <p>
+                In a world where dinosaurs and humans live side-by-side, an
+                Apatosaurus named Arlo makes an unlikely human friend.
+              </p>
+            </div>
           </div>
-
-          <div class="item">
-            <img src="../img/movie2.jpg" alt="Chicago" />
+          <div class="carousel-item img-h-100" data-bs-interval="3000">
+            <img src="../img/movie2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block bg-black-a">
+              <h5>The Peanuts Movie</h5>
+              <p>
+                The Peanuts Movie is a 2015 American computer-animated comedy
+                film based on Charles M. Schulz's comic strip Peanuts, produced
+                by Blue Sky Studios
+              </p>
+            </div>
           </div>
-
-          <div class="item">
-            <img src="../img/movie3.jpg" alt="New york" />
+          <div class="carousel-item img-h-100" data-bs-interval="3000">
+            <img src="../img/movie3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block bg-black-a">
+              <h5>Zootopia</h5>
+              <p>
+                From the largest elephant to the smallest shrew, the city of
+                Zootopia is a mammal metropolis where various animals live and
+                thrive.
+              </p>
+            </div>
           </div>
-
-          <div class="item">
-            <img src="../img/movie4.jpg" alt="Chicago" />
+          <div class="carousel-item img-h-100" data-bs-interval="3000">
+            <img src="../img/movie4.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block bg-black-a">
+              <h5>Big Hero 6</h5>
+              <p>
+                Big Hero 6 tells the story of Hiro Hamada, a young robotics
+                prodigy, and Baymax, his late-brother Tadashi's
+                healthcare-provider robot.
+              </p>
+            </div>
           </div>
-
-          <div class="item">
-            <img src="../img/movie5.jpg" alt="New york" />
+          <div class="carousel-item img-h-100" data-bs-interval="3000">
+            <img src="../img/movie5.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block bg-black-a">
+              <h5>Frozen</h5>
+              <p>
+                Fearless optimist Anna teams up with Kristoff in an epic
+                journey, encountering Everest-like.
+              </p>
+            </div>
           </div>
         </div>
-
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <button
+          class="carousel-control-prev bg-none"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bg-none"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next bg-none"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bg-none"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
-
     <!-- copyright -->
     <div class="jumbotron jumbotron-fluid" id="copyright">
       <div class="container">
@@ -104,7 +148,7 @@
           <div
             class="col-md-6 text-white align-self-center text-center text-md-left my-2"
           >
-            Copyright © 2023 Top Studio.
+            Copyright © 2023 Top VFX Studio.
           </div>
           <div
             class="col-md-6 align-self-center text-center text-md-right my-2"

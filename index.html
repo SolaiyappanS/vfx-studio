@@ -7,47 +7,64 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Home - VFX Studio</title>
-    <link rel="icon" href="img/logo-sm.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="img/logo.svg" sizes="32x32" type="image/png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <!-- custom.css -->
     <link rel="stylesheet" href="css/custom.css" />
     <!-- bootstrap.min.css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- font-awesome -->
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script
+      src="https://kit.fontawesome.com/0a03bb24ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- AOS -->
     <link rel="stylesheet" href="css/aos.css" />
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
   </head>
 
   <body>
+    <div class="container" id="mainHeader">
+      <header class="d-flex flex-wrap justify-content-center">
+        <a
+          href="#"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <img id="logoImg" src="img/logo.svg" alt="logo" />
+        </a>
+
+        <div class="col-6 align-self-center text-right bg-black-a">
+          <a href="#" class="btn text-active">Home</a>
+          <a href="projects/" class="btn text-white">Projects</a>
+          <a href="about/" class="btn text-white">About Us</a>
+          <a href="contact/" class="btn text-white">Contact Us</a>
+        </div>
+      </header>
+    </div>
     <!-- banner -->
     <video autoplay muted loop id="myVideo">
-      <source src="img/home-bg-vdo.mp4" type="video/mp4" />
+      <source src="vid/projects-bg-video.mp4" type="video/mp4" />
     </video>
-    <div class="jumbotron jumbotron-fluid" id="banner">
-      <div class="container text-center text-md-left">
-        <header>
-          <div class="row justify-content-between">
-            <div class="col-3">
-              <img id="logoImg" src="img/logo.png" alt="logo" />
-            </div>
-            <div class="col-6 align-self-center text-right">
-              <a href="#" class="btn text-active">Home</a>
-              <a href="projects/" class="btn text-white">Projects</a>
-              <a href="about/" class="btn text-white">About Us</a>
-              <a href="contact/" class="btn text-white">Contact Us</a>
-            </div>
-          </div>
-        </header>
+    <div class="jumbotron jumbotron-fluid mt-5 pt-5" id="banner">
+      <div class="container text-center text-md-left pt-5">
         <h1
           data-aos="fade"
           data-aos-easing="linear"
           data-aos-duration="1000"
           data-aos-once="true"
-          class="display-3 text-white font-weight-bold my-5"
+          class="display-3 text-white font-weight-bold"
         >
-          A Studio<br />
-          Which Creates Magic
+          A Studio Which Creates Magic
         </h1>
         <p
           data-aos="fade"
@@ -74,6 +91,32 @@
       </div>
     </div>
     <!-- three-blcok -->
+    <div class="row text-center z-3">
+      <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+        <div class="counter h1 mb-1">52147</div>
+        <span>Frames</span>
+      </div>
+      <!-- End Col -->
+
+      <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+        <div class="counter h1 mb-1">2467</div>
+        <span>Video Clips</span>
+      </div>
+      <!-- End Col -->
+
+      <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+        <div class="counter h1 mb-1">5</div>
+        <span>Years</span>
+      </div>
+      <!-- End Col -->
+
+      <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+        <div class="counter h1 mb-1">35</div>
+        <span>Projects</span>
+      </div>
+      <!-- End Col -->
+    </div>
+    <!-- End Row -->
     <div class="container my-5 py-2">
       <h2 class="text-center text-white font-weight-bold my-5">
         Taking Animation to the Next Level
@@ -91,7 +134,7 @@
             alt="Time is money"
             class="mx-auto"
           />
-          <h4>Time is Money</h4>
+          <h4>High Class VFX</h4>
           <p>Lorem ipsum dolor sit amet porro his no his deleniti</p>
         </div>
         <div
@@ -117,154 +160,8 @@
           class="col-md-4 text-white text-center"
         >
           <img src="img/smart-protect-3.png" alt="Smart Scan" class="mx-auto" />
-          <h4>Exciting Gifts</h4>
+          <h4>On Time Delivery</h4>
           <p>Et usu ocurreret elaboraret doctus prodesse assueverit.</p>
-        </div>
-      </div>
-    </div>
-    <!-- feature (skew background) -->
-    <div class="jumbotron jumbotron-fluid feature" id="feature-first">
-      <div class="container my-5">
-        <div class="row justify-content-between text-center text-md-left">
-          <div
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-once="true"
-            class="col-md-6"
-          >
-            <h2 class="text-white font-weight-bold">Take a look inside</h2>
-            <p class="text-white my-4">
-              Te iisque labitur eos, nec sale argumentum scribentur no, <br />
-              augue disputando in vim. Erat fugit sit at, ius lorem deserunt
-              deterruisset no.
-            </p>
-            <a href="#" class="btn text-white my-4 font-weight-bold text-active"
-              >Learn More</a
-            >
-          </div>
-          <div
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-once="true"
-            class="col-md-6 align-self-center"
-          >
-            <img
-              src="img/feature-1.png"
-              alt="Take a look inside"
-              class="mx-auto d-block"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- feature (green background) -->
-    <div class="jumbotron jumbotron-fluid feature" id="feature-last">
-      <div class="container">
-        <div class="row justify-content-between text-center text-md-left">
-          <div
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-once="true"
-            class="col-md-6 text-white flex-md-last"
-          >
-            <h2 class="font-weight-bold">Safe and reliable</h2>
-            <p class="my-4">
-              Duo suas detracto maiestatis ad, commodo lucilius invenire nec ad,
-              <br />
-              eum et oratio disputationi. Falli lobortis his ad
-            </p>
-            <a href="#" class="btn my-4 font-weight-bold text-active"
-              >Learn More</a
-            >
-          </div>
-          <div
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-once="true"
-            class="col-md-6 align-self-center flex-md-first"
-          >
-            <img
-              src="img/feature-2.png"
-              alt="Safe and reliable"
-              class="mx-auto d-block"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- client -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="containertext-white">
-        <h2 class="font-weight-bold">Our Most Valuable Clients</h2>
-        <br />
-        <div class="row">
-          <div class="col-sm-4 col-md-2 py-2 align-self-center">
-            <img src="img/client-1.png" class="mx-auto d-block" />
-          </div>
-          <div class="col-sm-4 col-md-2 py-2 align-self-center">
-            <img src="img/client-2.png" class="mx-auto d-block" />
-          </div>
-          <div class="col-sm-4 col-md-2 py-2 align-self-center">
-            <img src="img/client-3.png" class="mx-auto d-block" />
-          </div>
-          <div class="col-sm-4 col-md-2 py-2 align-self-center">
-            <img src="img/client-4.png" class="mx-auto d-block" />
-          </div>
-          <div class="col-sm-4 col-md-2 py-2 align-self-center">
-            <img src="img/client-5.png" class="mx-auto d-block" />
-          </div>
-          <div class="col-sm-4 col-md-2 py-2 align-self-center">
-            <img src="img/client-6.png" class="mx-auto d-block" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- contact -->
-    <div
-      class="jumbotron jumbotron-fluid"
-      id="contact"
-      style="background-image: url(img/aboutus-bg.jpg)"
-    >
-      <div class="container my-5">
-        <div class="row justify-content-between">
-          <div class="col-md-6 text-white">
-            <h2 class="font-weight-bold">Contact Us</h2>
-            <p class="my-4">
-              Te iisque labitur eos, nec sale argumentum scribentur,
-              <br />
-              augue disputando in vim. Erat fugit sit at, ius lorem.
-            </p>
-            <ul class="list-unstyled">
-              <li>Email : company_email@com</li>
-              <li>Phone : 361-688-5824</li>
-              <li>Address : 4826 White Avenue, Corpus Christi, Texas</li>
-            </ul>
-          </div>
-          <div class="text-white col-md-6">
-            <form>
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="name" class="form-control" id="name" />
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="Email">Your Email</label>
-                  <input type="email" class="form-control" id="Email" />
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea class="form-control" id="message" rows="3"></textarea>
-              </div>
-              <button
-                type="submit"
-                class="btn font-weight-bold text-active my-3"
-              >
-                Submit
-              </button>
-            </form>
-          </div>
         </div>
       </div>
     </div>
@@ -276,7 +173,7 @@
           <div
             class="col-md-6 text-white align-self-center text-center text-md-left my-2"
           >
-            Copyright © 2023 Top Studio.
+            Copyright © 2023 Top VFX Studio.
           </div>
           <div
             class="col-md-6 align-self-center text-center text-md-right my-2"
@@ -303,6 +200,24 @@
     <script src="js/aos.js"></script>
     <script>
       AOS.init({});
+    </script>
+    <script>
+      $(".counter").each(function () {
+        $(this)
+          .prop("Counter", 0)
+          .animate(
+            {
+              Counter: $(this).text(),
+            },
+            {
+              duration: 3000,
+              easing: "swing",
+              step: function (now) {
+                $(this).text(Math.ceil(now));
+              },
+            }
+          );
+      });
     </script>
   </body>
 </html>
