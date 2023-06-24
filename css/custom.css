@@ -32,6 +32,7 @@ body {
   width: 150px;
   object-fit: cover;
   filter: drop-shadow(5px 5px 5px #222);
+  margin: 25px;
 }
 
 h2 {
