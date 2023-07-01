@@ -29,7 +29,6 @@ body {
 
 #logoImg {
   height: 75px;
-  width: 150px;
   object-fit: cover;
   filter: drop-shadow(5px 5px 5px #222);
   margin: 25px;
@@ -102,29 +101,14 @@ button {
   padding: 2rem 3rem;
 }
 
-#copyright #social-media a {
-  width: 40px;
-  height: 40px;
-  border-radius: 99%;
-  transition: 0.4s ease;
-}
-
-#copyright #social-media a i {
-  font-size: 1.2rem;
-  line-height: 40px;
-}
-
-#copyright #social-media a:hover i {
-  color: #ffffff;
-}
-
 .text-active {
-  color: #ffea20;
+  font-weight: bold;
+  color: #34ED35;
   background-color: #0000;
 }
 
 .text-active:hover {
-  color: #b4a412;
+  color: #18D1DD;
   background-color: #0000;
 }
 
